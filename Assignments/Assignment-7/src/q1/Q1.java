@@ -1,4 +1,4 @@
-package assignment.lab;
+package q1;
 
 import java.util.Scanner;
 
@@ -62,8 +62,7 @@ class BST {
 		displayInorder(trav.right);
 	}
 
-	// Inorder successor of a node is the next node in the Inorder traversal of the
-	// BST.
+
 	public Node findSuccessor(Node node) {
 		if (node == null)
 			return null;
